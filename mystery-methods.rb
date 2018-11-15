@@ -1,3 +1,5 @@
+# common series
+# Time and space complexity = O(n)
 def mystery1(n)
   puts n
   if n == 1
@@ -7,6 +9,8 @@ def mystery1(n)
   end
 end
 
+# sums the digits
+# Time and space complexity = O(logn) (the number of digits is logbase10n + 1)
 def mystery2(n)
   if n < 10
     return n
